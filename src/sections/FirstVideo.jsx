@@ -2,6 +2,9 @@ import { useRef } from "react"
 import gsap from 'gsap';
 import { useGSAP } from "@gsap/react";
 
+
+// Create the video animation
+
 const FirstVideo = () => {
   const videoRef = useRef(null);
 
